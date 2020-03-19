@@ -31,7 +31,6 @@ class CollectionViewController: UICollectionViewController {
                          sizeForItemAt indexPath: IndexPath) -> CGSize {
         
              return CGSize(width: 200, height: 200)
-          
          
      }
 
@@ -64,15 +63,6 @@ class CollectionViewController: UICollectionViewController {
             
         }
 
-     
-      
-     
-
-     
-     
-     
-     
-     
      func getMovies(sortby:String) {
          var url:URL?=nil
          if sortby == ""{
